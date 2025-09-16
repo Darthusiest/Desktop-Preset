@@ -5,17 +5,13 @@
     ],
 
     "setup": [
-        "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\CEF\\NVIDIA app.exe", 
-        "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe", 
-        "C:\\Program Files\\SteelSeries\\GG\\SteelSeriesGGClient.exe" 
+        "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\CEF\\NVIDIA app.exe",
+        "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "C:\\Program Files\\SteelSeries\\GG\\SteelSeriesGGClient.exe"
     ],
-
     "Coding": [
         "C:\\Users\\jakep\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
         "C:\\Users\\jakep\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
         "\"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\" https://github.com/"
     ]
-
-
-
 }
