@@ -98,7 +98,7 @@ def refresh(listbox: tk.Listbox, presets: dict):
     for k in sorted(presets.keys()):
         listbox.insert(tk.END, k)
 
-
+ 
 
 def main():
     try: 
