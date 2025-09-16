@@ -156,3 +156,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+if len(sys.argv) >= 3 and sys.argv[1] == "--run":
+    preset_name = sys.argv[2]
+    try:
+        presets = load_presets()
+        if preset_name in presets:
+            run_preset(preset_name, presets[preset_name])
+        else:
+            messagebox.showerror("Preset not found", f"'{preset_name}' not in presets.json")
+    except Exception as e:
+        messagebox.showerror("Error", str(e))
+    sys.exit(0)
